@@ -8,15 +8,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailsComponent } from './heroDetails/heroDetails.component';
-import { HeroListComponent } from './heroList/heroList.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [			
     AppComponent,
-      DashboardComponent,
-      HeroDetailsComponent,
-      HeroListComponent
-   ],
+    DashboardComponent,
+    HeroDetailsComponent,
+    HeroesComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
